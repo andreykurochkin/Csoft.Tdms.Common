@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Tdms.Api">
+      <HintPath>..\..\..\..\..\Program Files (x86)\CSoft\TDMS Server 6.1\Tdms.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Tdms.Core">
+      <HintPath>..\..\..\..\..\Program Files (x86)\CSoft\TDMS Server 6.1\Tdms.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
